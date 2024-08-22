@@ -28,6 +28,12 @@ pip install -r requirements.txt
 * `transaction_descriptions`: возвращает описания транзакций.
 * `card_number_generator`: возвращает номера банковских карт в заданном диапазоне.
 
+### Модуль decorators.py
+
+* `def log(filename: Any) -> Callable:` - Декоратор для логирования вызовов функций.
+* `my_function()` - Суммирует два целых числа.
+
+
 ## Тестирование:
 
 #### Перед тестированием установите `pytest`

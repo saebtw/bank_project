@@ -1,6 +1,3 @@
-from typing import Any
-
-
 def filter_by_currency(transactions_list, currency):
     """Функция фильтрации операций по валюте"""
 
